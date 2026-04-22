@@ -93,9 +93,6 @@ for ($i = 30; $i -gt 0; $i--) {
     Start-Sleep -Seconds 1
 }   
 
-Write-Host "Press Ctrl+C to cancel restart and close the script"
-Write-Host "NOTE: Restarting is highly reccomended after running this script"
-
 Stop-Transcript
 
 Start-Sleep -Seconds 1
